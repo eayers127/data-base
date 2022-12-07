@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Todo App</title>
+</head>
+<body>
+    <!-- <h1>Todos</h1>
+    <h2>Add to the List</h2>
+    <div>Item<input id="add"/></div>
+    <div>Category<input id="category"/></div>
+    <div><button onclick="addTodo()">Add to the list</button></div>
+    <div><button onclick="hideTodo()">Toggle completed todos</button></div>
+    <div><button onclick="removeTodo()">Delete completed todos</button></div>
+    <div id="todos"></div>
+
+    <script src="main.js"></script> -->
+
+    <div class="wrapper">
+        <header>Todo List</header>
+        <div class="inputField">
+          <input type="text" placeholder="Enter new task" />
+          <button><i class="fas fa-plus"></i></button>
+        </div>
+        <ul class="todoList">
+          <li class="done">
+            Todo Item 1 (Done example)
+          </li>
+          <li>
+            Todo Item 2
+            <span class="editBtn"><i class="fa fa-edit"></i></span>
+            <span> <i class="fa fa-trash"></i></span>
+          </li>
+        </ul>
+        <div class="footer">
+          <span>You have 1 pending task</span>
+          <button>Clear Completed Items</button>
+        </div>
+      </div>
+</body>
+</html>
